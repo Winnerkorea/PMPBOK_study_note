@@ -38,5 +38,58 @@ WBS의 최하위 수준 인도물. PMBOK 8의 5대 Focus Area 중 Planning에서
 **11. Work Performance Information 작업성과정보 [전 성과 영역 통합]**
 작업성과데이터를 분석·해석하여 의사결정에 활용할 수 있도록 맥락을 부여한 정보. PMBOK 8에서는 7개 성과 영역의 건강성을 판단하는 지표로 사용되며, AI 기반 예측(ETC, EAC, 위험 예측)도 포함한다. 성과 보고서의 입력이 된다.
 
+### PMBOK 8 기준 재정의
+
+**1. Tight Matrix 타이트 매트릭스 [Resources 성과 영역]**
+매트릭스 조직이지만 팀 성과 향상을 위해 핵심 팀원을 동일 장소에 집중 배치하는 형태. PMBOK 8에서는 Co-location의 한 유형으로 설명하며, 물리적 Tight Matrix 뿐 아니라 가상 협업툴을 활용한 Virtual Tight Matrix도 포함한다. 6대 원칙 중 'Build empowered teams' 원칙과 직결.
+
+**2. Time and Material Contract (T&M) 시간과 자재 계약 [Governance / Finance 성과 영역]**
+고정가격과 원가정산의 혼합 계약. 단가는 고정하되, 물량은 실투입 시간과 자재에 따라 정산하는 개방형 계약. PMBOK 8에서는 Governance 성과 영역의 조달 계약 유형으로, 애자일/하이브리드에서 스토리당 단가를 정하는 Agile 계약의 기초가 된다. 원가 상한(Ceiling)을 설정하여 리스크를 통제한다.
+
+**3. Time Control 일정 통제 → 현행: Schedule Control [Schedule 성과 영역]**
+일정 성과 영역의 Monitoring & Controlling Focus Area 활동. 일정 기준선(Baseline) 대비 변동을 유발하는 요인을 관리하고, 변경 발생 시 통합변경통제(Perform Integrated Change Control)를 통해 기준선을 보호하는 프로세스.
+
+**4. Time Now / Data Date 현시점 [Schedule 성과 영역]**
+성과 측정의 기준일. PMBOK 8 공식 용어는 Data Date. EV, 일정, 원가 보고 시 "As of Data Date" 기준으로 실적을 집계한다. Status Date와 동일 의미로 사용.
+
+**5. Time-Scaled Network Diagram 시간척도 네트워크도 [Schedule 성과 영역]**
+활동을 시간축 위에 기간 길이만큼 표시한 네트워크 다이어그램. 네트워크 논리와 Gantt Chart의 장점을 결합한 형태로, PMBOK 8에서는 하이브리드 일정 시각화 도구로 활용된다.
+
+**6. Tool 도구**
+활동 수행에 사용되는 유형/무형의 수단. PMBOK 8에서는 특정 Tool을 강제하지 않고, 7개 성과 영역별로 테일러링 가능한 Tool & Technique으로 제시한다. 예: AI 기반 일정 예측 툴, 협업 툴 등.
+
+**7. Total Float (TF) 총여유 [Schedule 성과 영역]**
+프로젝트 종료일을 지연시키지 않으면서 해당 활동이 가질 수 있는 최대 지연 가능 시간. LS-ES 또는 LF-EF로 계산. PMBOK 8에서는 Schedule 성과 영역의 핵심 지표이며, 하이브리드에서는 버퍼(Buffer)로 관리되기도 한다.
+
+**8. Total Quality Control 전사적 품질통제**
+PMBOK 8에서는 더 이상 공식 용어로 사용하지 않음. 1960년대 CWQC 개념으로, 현재는 다음 용어로 대체됨.
+
+**9. Total Quality Management (TQM) 전사적 품질관리 → 현행: Embed Quality 원칙 [전 영역]**
+PMBOK 8의 6대 핵심 원칙 중 하나인 'Embed quality'로 승계. 품질은 생산부서가 아닌 전 조직, 전 생명주기에 걸쳐 내재화해야 한다는 원칙. 검사가 아닌 예방과 지속적 개선에 초점.
+
+**10. Transference 전가 [Risk 성과 영역]**
+부정적 리스크 대응 전략 중 하나. 리스크의 영향을 제3자에게 이전. 예: 보험, 보증, 외주 계약. PMBOK 8에서는 Risk 성과 영역의 대응 전략으로 유지되며, 전가해도 책임(Risk Ownership)은 원 소유자에게 남고 2차 리스크가 발생할 수 있음을 명시한다.
+
+**11. Triggers 유발 요인 / 트리거 [Risk 성과 영역]**
+리스크가 발생했거나 임박했음을 알리는 징후, 경고 신호. Risk Symptom이라고도 함. PMBOK 8의 Monitoring & Controlling Focus Area에서 Risk 성과 영역을 감시할 때 핵심 관찰 대상.
+
+**12. Validation 확인 / 타당성 확인 [Scope 성과 영역]**
+구성요소, 제품, 결과물이 사용 목적에 부합하여 고객 가치를 실현하는지 평가하는 행위. PMBOK 8의 'Focus on value' 원칙의 핵심 활동.
+> **Verification vs Validation:** Verification = 규정된 요구사항 충족 여부 (제대로 만들었는가, Did we build right?), Validation = 고객의 니즈와 가치 충족 여부 (올바른 것을 만들었는가, Did we build the right thing?). Scope 검증 프로세스에서 공식 인수와 함께 수행.
+
+**13. Value Engineering (VE) 가치공학 [Scope, Finance 성과 영역]**
+생애주기 원가를 최적화하고 가치를 극대화하기 위한 체계적·창조적 분석 기법. PMBOK 8에서는 Finance 성과 영역의 'Focus on value' 원칙을 실현하는 핵심 기법으로, 기능은 유지하면서 원가 절감, 시간 단축, 품질 향상을 도모한다.
+
+**14. Variable Cost 변동비 [Finance 성과 영역]**
+조업도(생산량)에 비례하여 총액이 증감하는 원가. 직접재료비, 직접노무비 등. Finance 성과 영역에서 고정비(Fixed Cost)와 구분하여 EAC, ETC 예측과 예산 수립의 기초가 된다.
+
+**15. Variable Sampling 계량 샘플링 [Resources / Governance 성과 영역]**
+무게, 길이, 부피, 시간 등 연속 척도로 측정 가능한 품질을 샘플링하는 방법. Attribute Sampling(계수 샘플링: 합격/불합격)과 대비. PMBOK 8의 Embed quality 원칙 하에서 통계적 품질 관리 기법으로 활용.
+
+**16. Vendor / Supplier 판매자 / 공급자 [Governance 성과 영역]**
+프로젝트 외부에서 제품, 서비스, 자원을 제공하는 외부 당사자. PMBOK 8에서는 Procurement가 별도 지식영역이 아닌 Governance 성과 영역에 통합되어, 단순 판매자가 아닌 가치 파트너(Value Partner)로 관리 대상이 확대되었다.
+
+이전 배치와 합쳐서 전체 용어집 PDF로 정리해 드릴까요?
+
 **12. Workaround 임시방편 [Risk, Governance 성과 영역]**
 식별되지 않았거나, 대응계획이 없는 위험이 발생했을 때 즉흥적으로 수행하는 비계획 대응. PMBOK 8에서는 'Adopt a holistic view' 원칙 하에, Workaround 수행 시 다른 성과 영역에 미치는 영향을 함께 평가하고 Governance를 통해 기록하도록 강조한다. 사전에 계획된 Contingency Plan과 구분된다.
