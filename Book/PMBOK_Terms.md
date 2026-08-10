@@ -93,3 +93,43 @@ PMBOK 8의 6대 핵심 원칙 중 하나인 'Embed quality'로 승계. 품질은
 
 **12. Workaround 임시방편 [Risk, Governance 성과 영역]**
 식별되지 않았거나, 대응계획이 없는 위험이 발생했을 때 즉흥적으로 수행하는 비계획 대응. PMBOK 8에서는 'Adopt a holistic view' 원칙 하에, Workaround 수행 시 다른 성과 영역에 미치는 영향을 함께 평가하고 Governance를 통해 기록하도록 강조한다. 사전에 계획된 Contingency Plan과 구분된다.
+
+
+PMBOK 8 기준 재정의 - T로 시작
+1. Target Completion Date (TC) 목표 완료일 [Schedule 성과 영역]
+네트워크 분석 시 제약조건으로 강제되는 프로젝트 전체의 목표 완료일. PMBOK 8의 Schedule 성과 영역에서 기준선(Baseline) 대비 압축(Schedule Compression)이 필요한지를 판단하는 제약일자로 사용된다.
+
+2. Target Finish Date (TF) 목표 종료일 [Schedule 성과 영역]
+특정 활동이 종료되어야 하는 목표 일자. PMBOK 8에서는 Planning Focus Area에서 설정하는 제약조건(Constraint) 중 하나이며, Late Finish와는 다른 개념으로 관리자가 의도적으로 설정한 날짜이다.
+
+3. Target Schedule 목표 일정 [Schedule 성과 영역]
+승인된 일정 기준선(Schedule Baseline)과 비교되는, 현재 의도하고 있는 작업 일정. PMBOK 8에서는 기준선은 변경통제를 거쳐야 변경되지만, Target Schedule은 What-if 시나리오나 회복 계획으로 유연하게 운용할 수 있다.
+
+4. Target Start Date (TS) 목표 개시일 [Schedule 성과 영역]
+특정 활동이 시작되어야 하는 목표 일자. TF와 동일하게 제약조건으로 사용되며, PMBOK 8에서는 자원 평준화나 외부 의존성으로 인해 설정되는 경우가 많다.
+
+5. Task 태스크
+PMBOK 8 공식 용어로는 사용하지 않으며, Activity의 비공식적 표현. WBS에 포함되지 않은 최하위 수준의 일반적 작업 단위를 의미했으나, 현재는 모두 Schedule 성과 영역의 Activity로 통일하여 사용한다. 시험에서는 Task라는 표현이 나오면 Activity로 해석.
+
+6. Team Development 팀 개발 [Resources 성과 영역]
+프로젝트 성과를 높이기 위해 팀의 역량을 향상시키는 활동. PMBOK 8의 6대 원칙 중 'Build empowered teams' 원칙의 핵심 실행 영역이다.
+
+PMBOK 8 변화: 7판까지의 Tuckman 사다리(Forming-Storming-Norming-Performing-Adjourning) 모델은 유지되나, 팀 개발을 일회성 이벤트가 아닌 지속적 코칭, 멘토링, 심리적 안전감 조성으로 본다. 공식 교육 뿐 아니라 페어링, 모브 프로그래밍 등도 포함.
+
+7. Technical Performance Measurement (TPM) 기술적 성과 측정 [Scope, Resources 성과 영역]
+계획된 기술적 성과와 실제 기술적 성과를 비교하는 측정. PMBOK 8에서는 Scope 성과 영역의 가치 실현 여부를 판단하는 선행 지표로 활용된다. 예: 계획 대비 실제 중량, 속도, 용량, 결함률 등을 측정하여, 최종 인도물 실패를 조기에 예측한다.
+
+8. Templates 템플릿 [Governance 성과 영역]
+과거 프로젝트의 문서나 프로세스를 표준 양식으로 만든 것. PMBOK 8에서는 조직 프로세스 자산(OPA)의 핵심으로, Governance 성과 영역에서 테일러링의 출발점으로 사용한다. WBS 템플릿, 위험등록부 템플릿, 일정 네트워크 템플릿 등 40개 프로세스 수행 시 재사용하여 효율을 높인다.
+
+9. Three-Point Estimate 3점 산정 [Schedule, Finance 성과 영역]
+불확실성을 반영하여 낙관치(O), 최빈치(M), 비관치(P) 3개 값으로 산정하는 기법. PMBOK 8에서도 Planning Focus Area의 핵심 산정 기법으로 유지.
+
+공식:
+
+삼각분포: (O + M + P) / 3
+베타분포(PERT): (O + 4M + P) / 6
+PMBOK 8에서는 AI 기반 예측과 병행하여 인간의 편향을 보정하는 기법으로 강조된다.
+10. Threshold 한계선 / 임계값 [전 성과 영역]
+프로젝트 관리 계획에 정의된 허용 범위의 한계값. PMBOK 8에서는 7개 모든 성과 영역에서 설정한다. 예: 일정 임계값 5일, 원가 임계값 10%, 위험 임계값 등. Monitoring & Controlling Focus Area에서 이 값을 초과하면 예외 보고 및 대응 조치가 트리거된다. 관리적 관심(Management by Exception)의 기준점이다.
+
