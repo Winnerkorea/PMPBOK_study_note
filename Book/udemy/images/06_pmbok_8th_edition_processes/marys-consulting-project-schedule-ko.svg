@@ -1,0 +1,222 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1573" viewBox="0 0 1800 1180" role="img" aria-labelledby="title desc">
+  <title id="title">메리 컨설팅 프로젝트 일정 간트 차트 한국어판</title>
+  <desc id="desc">2026년 5월부터 12월까지 메리 컨설팅 신규 회사 웹사이트 프로젝트의 41개 활동, 주공정, 마일스톤, 주요 산출물을 나타낸 간트 차트</desc>
+  <defs>
+    <style>
+      text { font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; fill: #313131; }
+      .title { font-size: 27px; font-weight: 700; fill: #fff; letter-spacing: .4px; }
+      .meta-label { font-size: 14px; font-weight: 700; }
+      .meta-value { font-size: 15px; font-weight: 600; }
+      .month { font-size: 14px; font-weight: 700; text-anchor: middle; }
+      .task { font-size: 12px; }
+      .critical-task { font-size: 12px; font-weight: 700; fill: #c54f4b; }
+      .bar-code { font-size: 9px; font-weight: 700; }
+      .legend { font-size: 13px; }
+    </style>
+    <pattern id="rows" width="1695" height="21" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="21" x2="1695" y2="21" stroke="#ececec" stroke-width="1"/>
+    </pattern>
+    <pattern id="weeks" width="35" height="861" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="861" stroke="#eeeeee" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1800" height="1180" fill="#ffffff"/>
+  <rect x="30" y="24" width="1740" height="56" fill="#3f3f3f"/>
+  <text x="900" y="61" class="title" text-anchor="middle">프로젝트 일정 - 간트 차트</text>
+
+  <rect x="30" y="92" width="1740" height="50" fill="#fff" stroke="#9a9a9a"/>
+  <rect x="30" y="92" width="110" height="50" fill="#efefef" stroke="#9a9a9a"/>
+  <text x="43" y="113" class="meta-label">프로젝트명</text>
+  <text x="43" y="132" class="meta-label">Project Title</text>
+  <text x="152" y="123" class="meta-value">메리 컨설팅 - 신규 회사 웹사이트</text>
+  <rect x="1545" y="92" width="105" height="50" fill="#efefef" stroke="#9a9a9a"/>
+  <text x="1558" y="113" class="meta-label">작성일</text>
+  <text x="1558" y="132" class="meta-label">Date Prepared</text>
+  <text x="1664" y="123" class="meta-value">2026년 5월 12일</text>
+
+  <rect x="45" y="190" width="1695" height="861" fill="url(#rows)"/>
+  <rect x="500" y="190" width="1240" height="861" fill="url(#weeks)"/>
+  <line x1="500" y1="178" x2="1740" y2="178" stroke="#404040" stroke-width="1.4"/>
+  <g stroke="#b7b7b7" stroke-width="1.1">
+    <line x1="500" y1="178" x2="500" y2="1051"/>
+    <line x1="644.65" y1="178" x2="644.65" y2="1051"/>
+    <line x1="799.64" y1="178" x2="799.64" y2="1051"/>
+    <line x1="959.93" y1="178" x2="959.93" y2="1051"/>
+    <line x1="1120.36" y1="178" x2="1120.36" y2="1051"/>
+    <line x1="1274.95" y1="178" x2="1274.95" y2="1051"/>
+    <line x1="1435.11" y1="178" x2="1435.11" y2="1051"/>
+    <line x1="1590.10" y1="178" x2="1590.10" y2="1051"/>
+    <line x1="1740" y1="178" x2="1740" y2="1051"/>
+  </g>
+  <g class="month">
+    <text x="572.3" y="168">2026년 5월</text>
+    <text x="722.1" y="168">2026년 6월</text>
+    <text x="879.8" y="168">2026년 7월</text>
+    <text x="1040.1" y="168">2026년 8월</text>
+    <text x="1197.7" y="168">2026년 9월</text>
+    <text x="1355.0" y="168">2026년 10월</text>
+    <text x="1512.6" y="168">2026년 11월</text>
+    <text x="1665.0" y="168">2026년 12월</text>
+  </g>
+
+  <g fill="#3f3f3f">
+    <path d="M520.7 177 l6 6 -6 6 -6 -6z"/><path d="M680.8 177 l6 6 -6 6 -6 -6z"/>
+    <path d="M805.2 177 l6 6 -6 6 -6 -6z"/><path d="M991.1 177 l6 6 -6 6 -6 -6z"/>
+    <path d="M1089.0 177 l6 6 -6 6 -6 -6z"/><path d="M1316.2 177 l6 6 -6 6 -6 -6z"/>
+    <path d="M1383.3 177 l6 6 -6 6 -6 -6z"/><path d="M1528.4 177 l6 6 -6 6 -6 -6z"/>
+    <path d="M1554.2 177 l6 6 -6 6 -6 -6z"/><path d="M1636.9 177 l6 6 -6 6 -6 -6z"/>
+    <path d="M1662.7 177 l6 6 -6 6 -6 -6z"/><path d="M1735.0 177 l6 6 -6 6 -6 -6z"/>
+  </g>
+
+  <g>
+    <text x="50" y="207" class="critical-task">A001  프로젝트 헌장 개발</text>
+    <rect x="500" y="196" width="25.8" height="12" rx="1" fill="#fbe5d6" stroke="#c54f4b" stroke-width="2"/>
+
+    <text x="50" y="228" class="critical-task">A002  이해관계자 식별</text>
+    <rect x="536.2" y="217" width="15.5" height="12" rx="1" fill="#fbe5d6" stroke="#c54f4b" stroke-width="2"/>
+
+    <text x="50" y="249" class="critical-task">A003  보조 관리 계획 수립</text>
+    <rect x="551.7" y="238" width="98.2" height="12" rx="1" fill="#fbe5d6" stroke="#c54f4b" stroke-width="2"/>
+    <text x="557" y="248" class="bar-code">A003</text>
+
+    <text x="50" y="270" class="critical-task">A004  기준선 수립</text>
+    <rect x="649.8" y="259" width="36.2" height="12" rx="1" fill="#fbe5d6" stroke="#c54f4b" stroke-width="2"/>
+
+    <text x="50" y="291" class="critical-task">A006  요구사항 인터뷰 수행</text>
+    <rect x="686.0" y="280" width="36.2" height="12" rx="1" fill="#ddebf7" stroke="#c54f4b" stroke-width="2"/>
+
+    <text x="50" y="312" class="task">A007  요구사항 포커스 그룹 진행</text>
+    <rect x="722.2" y="301" width="15.5" height="12" rx="1" fill="#ddebf7" stroke="#666"/>
+
+    <text x="50" y="333" class="critical-task">A008  컨설턴트 설문 배포</text>
+    <rect x="722.2" y="322" width="51.7" height="12" rx="1" fill="#ddebf7" stroke="#c54f4b" stroke-width="2"/>
+    <text x="727" y="332" class="bar-code">A008</text>
+
+    <text x="50" y="354" class="critical-task">A009  요구사항 문서 및 RTM 작성</text>
+    <rect x="773.8" y="343" width="36.2" height="12" rx="1" fill="#ddebf7" stroke="#c54f4b" stroke-width="2"/>
+
+    <text x="50" y="375" class="critical-task">A010  정보 구조 개발</text>
+    <rect x="825.5" y="364" width="46.5" height="12" rx="1" fill="#ddebf7" stroke="#c54f4b" stroke-width="2"/>
+
+    <text x="50" y="396" class="task">A013  콘텐츠 전략 수립</text>
+    <rect x="825.5" y="385" width="20.7" height="12" rx="1" fill="#e2f0d9" stroke="#666"/>
+
+    <text x="50" y="417" class="task">A028  테스트 계획 수립</text>
+    <rect x="825.5" y="406" width="15.5" height="12" rx="1" fill="#ead1dc" stroke="#666"/>
+
+    <text x="50" y="438" class="task">A014  마케팅 페이지 문안 작성</text>
+    <rect x="846.2" y="427" width="134.3" height="12" rx="1" fill="#e2f0d9" stroke="#666"/>
+    <text x="851" y="437" class="bar-code">A014</text>
+
+    <text x="50" y="459" class="task">A015  사례 연구 제작</text>
+    <rect x="846.2" y="448" width="144.7" height="12" rx="1" fill="#e2f0d9" stroke="#666"/>
+    <text x="851" y="458" class="bar-code">A015</text>
+
+    <text x="50" y="480" class="task">A016  컨설턴트 소개 수집</text>
+    <rect x="846.2" y="469" width="180.8" height="12" rx="1" fill="#e2f0d9" stroke="#666"/>
+    <text x="851" y="479" class="bar-code">A016</text>
+
+    <text x="50" y="501" class="task">A017  초기 블로그 콘텐츠 작성</text>
+    <rect x="846.2" y="490" width="72.3" height="12" rx="1" fill="#e2f0d9" stroke="#666"/>
+    <text x="851" y="500" class="bar-code">A017</text>
+
+    <text x="50" y="522" class="task">A019  법률 페이지 초안 작성</text>
+    <rect x="846.2" y="511" width="31" height="12" rx="1" fill="#e2f0d9" stroke="#666"/>
+
+    <text x="50" y="543" class="critical-task">A011  시각·브랜드 디자인 개발</text>
+    <rect x="872.0" y="532" width="108.5" height="12" rx="1" fill="#ddebf7" stroke="#c54f4b" stroke-width="2"/>
+    <text x="877" y="542" class="bar-code">A011</text>
+
+    <text x="50" y="564" class="critical-task">A012  스폰서 디자인 검토·승인</text>
+    <rect x="980.5" y="553" width="15.5" height="12" rx="1" fill="#ddebf7" stroke="#c54f4b" stroke-width="2"/>
+
+    <text x="50" y="585" class="task">A018  이미지 소싱·라이선스 확보</text>
+    <rect x="1006.3" y="574" width="51.7" height="12" rx="1" fill="#e2f0d9" stroke="#666"/>
+    <text x="1011" y="584" class="bar-code">A018</text>
+
+    <text x="50" y="606" class="critical-task">A021  개발·스테이징·운영 환경 구성</text>
+    <rect x="1006.3" y="595" width="25.8" height="12" rx="1" fill="#fff2cc" stroke="#c54f4b" stroke-width="2"/>
+
+    <text x="50" y="627" class="task">A035  출시 커뮤니케이션 계획 수립</text>
+    <rect x="1006.3" y="616" width="15.5" height="12" rx="1" fill="#d9e2f3" stroke="#666"/>
+
+    <text x="50" y="648" class="critical-task">A022  CMS 구성</text>
+    <rect x="1042.5" y="637" width="46.5" height="12" rx="1" fill="#fff2cc" stroke="#c54f4b" stroke-width="2"/>
+
+    <text x="50" y="669" class="task">A020  마케팅·법무 콘텐츠 검토</text>
+    <rect x="1058.0" y="658" width="36.2" height="12" rx="1" fill="#e2f0d9" stroke="#666"/>
+
+    <text x="50" y="690" class="critical-task">A023  컴포넌트 라이브러리 구축</text>
+    <rect x="1089.0" y="679" width="87.8" height="12" rx="1" fill="#fff2cc" stroke="#c54f4b" stroke-width="2"/>
+    <text x="1094" y="689" class="bar-code">A023</text>
+
+    <text x="50" y="711" class="task">A025  백엔드 API 개발</text>
+    <rect x="1089.0" y="700" width="87.8" height="12" rx="1" fill="#fff2cc" stroke="#666"/>
+    <text x="1094" y="710" class="bar-code">A025</text>
+
+    <text x="50" y="732" class="critical-task">A024  페이지 템플릿 구축</text>
+    <rect x="1187.2" y="721" width="98.2" height="12" rx="1" fill="#fff2cc" stroke="#c54f4b" stroke-width="2"/>
+    <text x="1192" y="731" class="bar-code">A024</text>
+
+    <text x="50" y="753" class="task">A026  CRM 연동 구현</text>
+    <rect x="1187.2" y="742" width="51.7" height="12" rx="1" fill="#fff2cc" stroke="#666"/>
+    <text x="1192" y="752" class="bar-code">A026</text>
+
+    <text x="50" y="774" class="critical-task">A027  검색·분석 구성</text>
+    <rect x="1295.7" y="763" width="25.8" height="12" rx="1" fill="#fff2cc" stroke="#c54f4b" stroke-width="2"/>
+
+    <text x="50" y="795" class="task">A031  접근성 감사 수행</text>
+    <rect x="1295.7" y="784" width="25.8" height="12" rx="1" fill="#ead1dc" stroke="#666"/>
+
+    <text x="50" y="816" class="task">A036  기존 사이트 콘텐츠 마이그레이션</text>
+    <rect x="1295.7" y="805" width="25.8" height="12" rx="1" fill="#d9e2f3" stroke="#666"/>
+
+    <text x="50" y="837" class="critical-task">A029  기능 테스트 수행</text>
+    <rect x="1337.0" y="826" width="51.7" height="12" rx="1" fill="#ead1dc" stroke="#c54f4b" stroke-width="2"/>
+    <text x="1342" y="836" class="bar-code">A029</text>
+
+    <text x="50" y="858" class="critical-task">A030  성능 테스트 수행</text>
+    <rect x="1388.7" y="847" width="31" height="12" rx="1" fill="#ead1dc" stroke="#c54f4b" stroke-width="2"/>
+
+    <text x="50" y="879" class="critical-task">A032  결함 해결</text>
+    <rect x="1419.7" y="868" width="62" height="12" rx="1" fill="#ead1dc" stroke="#c54f4b" stroke-width="2"/>
+    <text x="1425" y="878" class="bar-code">A032</text>
+
+    <text x="50" y="900" class="critical-task">A033  UAT 수행</text>
+    <rect x="1481.7" y="889" width="41.3" height="12" rx="1" fill="#ead1dc" stroke="#c54f4b" stroke-width="2"/>
+
+    <text x="50" y="921" class="critical-task">A034  최종 UAT 승인</text>
+    <rect x="1523.0" y="910" width="10.3" height="12" rx="1" fill="#ead1dc" stroke="#c54f4b" stroke-width="2"/>
+
+    <text x="50" y="942" class="critical-task">A037  출시 전 내부 커뮤니케이션</text>
+    <rect x="1533.3" y="931" width="20.7" height="12" rx="1" fill="#d9e2f3" stroke="#c54f4b" stroke-width="2"/>
+
+    <text x="50" y="963" class="critical-task">A038  운영 전환(Go-Live)</text>
+    <rect x="1554.0" y="952" width="5.2" height="12" rx="1" fill="#d9e2f3" stroke="#c54f4b" stroke-width="2"/>
+
+    <text x="50" y="984" class="critical-task">A039  출시 후 집중 지원</text>
+    <rect x="1559.1" y="973" width="82.7" height="12" rx="1" fill="#d9e2f3" stroke="#c54f4b" stroke-width="2"/>
+    <text x="1564" y="983" class="bar-code">A039</text>
+
+    <text x="50" y="1005" class="task">A040  마케팅팀 CMS 교육</text>
+    <rect x="1559.1" y="994" width="5.2" height="12" rx="1" fill="#d9e2f3" stroke="#666"/>
+
+    <text x="50" y="1026" class="critical-task">A045  운영 인계</text>
+    <rect x="1641.8" y="1015" width="25.8" height="12" rx="1" fill="#d9e2f3" stroke="#c54f4b" stroke-width="2"/>
+
+    <text x="50" y="1047" class="critical-task">A005  프로젝트 종료</text>
+    <rect x="1667.7" y="1036" width="72.3" height="12" rx="1" fill="#fbe5d6" stroke="#c54f4b" stroke-width="2"/>
+    <text x="1673" y="1046" class="bar-code">A005</text>
+  </g>
+
+  <rect x="135" y="1080" width="1530" height="52" fill="#fff" stroke="#9a9a9a"/>
+  <line x1="690" y1="1080" x2="690" y2="1132" stroke="#9a9a9a"/>
+  <line x1="1010" y1="1080" x2="1010" y2="1132" stroke="#9a9a9a"/>
+  <rect x="151" y="1098" width="15" height="15" fill="#fbe5d6" stroke="#c54f4b" stroke-width="2"/>
+  <text x="177" y="1111" class="legend"><tspan font-weight="700" fill="#c54f4b">붉은 테두리·글자</tspan> = 주공정(Critical Path)</text>
+  <path d="M714 1098 l8 8 -8 8 -8 -8z" fill="#3f3f3f"/>
+  <text x="733" y="1111" class="legend">◆ = 마일스톤</text>
+  <text x="1035" y="1111" class="legend">막대 색상 = 주요 산출물(WBS 참조)</text>
+  <text x="900" y="1162" class="legend" text-anchor="middle" fill="#666">원본: Project_Schedule_FILLED.pdf, 1쪽 · 한국어 학습용 재구성</text>
+</svg>
